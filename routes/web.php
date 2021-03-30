@@ -16,6 +16,7 @@ Route::get('/', function () {
 Route::get('/demo/{name}', 'DemoController@index');
 Route::get('/home', 'DemoController@home');
 Route::get('/post', 'DemoController@post');
+Route::post('/post', 'DemoController@post');
 
 Route::get('/login','LoginController@login');
 Route::post('/login','LoginController@postLogin');
